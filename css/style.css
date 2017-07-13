@@ -1,0 +1,116 @@
+body {
+  font-family: 'Pacifico', cursive;
+}
+.handsOff{
+  pointer-events:none;
+}
+
+.container {
+
+  height: auto;
+  white-space: nowrap;
+}
+
+button {
+  width: 40vmin;
+  height: 40vmin;
+  margin: 0.5vmin;
+}
+
+#green {
+  background-color: #0a5b00;
+  border-radius: 200px 10px 10px 10px;
+  -moz-border-radius: 200px 10px 10px 10px;
+  -webkit-border-radius: 200px 10px 10px 10px;
+  border: 6px solid #000000;
+ 
+}
+
+
+
+#grey {
+  background-color: #565656;
+  border-radius: 10px 200px 10px 10px;
+  -moz-border-radius: 10px 200px 10px 10px;
+  -webkit-border-radius: 10px 200px 10px 10px;
+  border: 6px solid #000000;
+}
+
+#brown {
+  background-color: #5e2200;
+  border-radius: 10px 10px 10px 200px;
+  -moz-border-radius: 10px 10px 10px 200px;
+  -webkit-border-radius: 10px 10px 10px 200px;
+  border: 6px solid #000000;
+}
+
+#blue {
+  background-color: #0389a0;
+  border-radius: 10px 10px 200px 10px;
+  -moz-border-radius: 10px 10px 200px 10px;
+  -webkit-border-radius: 10px 10px 200px 10px;
+  border: 6px solid #000000;
+}
+
+#green:hover{
+  border: 6px solid #fff463;
+}
+#grey:hover{
+  border: 6px solid #fff463;
+}
+#brown:hover{
+  border: 6px solid #fff463;
+}
+#blue:hover{
+  border: 6px solid #fff463;
+}
+#onOff {
+  width: 5vmin;
+  margin: auto;
+  color: black;
+  border-radius: 200px 200px 200px 200px;
+-moz-border-radius: 200px 200px 200px 200px;
+-webkit-border-radius: 200px 200px 200px 200px;
+border: 2px solid orange;
+  padding: 10px;
+  background-color: #fff463;
+  text-decoration: none; 
+  float: center;
+  font-size: .6em;
+  
+  
+}
+#onOff:hover{
+ cursor: pointer;
+  background-color: #fff8a3;
+   
+}
+.flexy {
+  display: flex;
+  justify-content: center;
+}
+#off {
+  color:red;
+  padding-left: 14vmin;
+  padding-right: 3vmin;
+}
+#winner{
+  display: none;
+}
+
+#strict {
+  cursor: pointer;
+  text-decoration: none;
+  color : black;
+   padding-right: 10px;
+  background-color: #fff463;
+   border-radius: 200px 200px 200px 200px;
+-moz-border-radius: 200px 200px 200px 200px;
+-webkit-border-radius: 200px 200px 200px 200px;
+border: 2px solid orange;
+  margin-left: 12px;
+}
+
+a {
+  text-decoration: none; 
+}
